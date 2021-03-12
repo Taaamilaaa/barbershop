@@ -1,0 +1,67 @@
+:root {
+  --darck-bg-color: #191c26;
+  --bg-color: #ffffff;
+  --main-text-color: #555555;
+  --middle-bg-color: #f7f7f7;
+  --section-title-color: #303030;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--main-text-color);
+  font-family: 'Open Sans';
+  font-style: 400;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.85;
+  letter-spacing: 0.02em;
+}
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tagline {
+  color: var(--section-title-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.title {
+  color: var(--bg-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+}
+
+.section-title {
+  color: var(--section-title-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+}
+.light-title {
+  color: var(--bg-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+}
+
+.darck-section {
+  background-color: #191c26;
+}
+
+.
